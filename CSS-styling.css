@@ -1,0 +1,158 @@
+
+
+  .image-container {
+    position: relative;
+    width: 300px; 
+  }
+
+  .image {
+    width: 100%; 
+    height: auto; 
+    border: 1px solid white; 
+  }
+
+  .content {
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    color: white; 
+    padding: 10px; 
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+    
+  }
+
+  .image-container:hover .content {
+    opacity: 1; 
+  }
+
+  
+
+  .image-container2 {
+    position: relative;
+    width: 300px; 
+  }
+
+  .image2 {
+    width: 100%; 
+    height: auto; 
+    border: 1px solid white; 
+  }
+
+  .content2 {
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    color: white; 
+    padding: 10px; 
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+  }
+
+  .image-container2:hover .content2 {
+    opacity: 1; 
+  } 
+  
+  .image-container3 {
+    position: relative;
+    width: 300px; 
+  }
+
+  .image3 {
+    width: 100%; 
+    height: auto; 
+    border: 1px solid white; 
+  }
+
+  .content3 {
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    color: white; 
+    padding: 10px; 
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+  }
+
+  .image-container3:hover .content3 {
+    opacity: 1; 
+  }
+
+  .content h1 {
+    font-size: 50px;
+    margin-bottom: 50px; 
+  }
+
+  .content p {
+    font-size: 32px; 
+    
+  }
+
+  .content2 h1 {
+    font-size: 50px; 
+    margin-bottom: 50px; 
+  }
+
+  .content2 p {
+    font-size: 32px; 
+  }
+
+  .content3 h1 {
+    font-size: 50px; 
+    margin-bottom: 50px; 
+  }
+
+  .content3 p {
+    font-size: 32px; 
+  }
+  #p1 {
+    border-style: inset;
+    font-size: 20px;
+    border-width: 5px;
+    border-radius: 10px;
+    padding: 7px;
+    border-color: rgb(176, 255, 176);
+
+  }
+
+  #p2 {
+    border-style: inset;
+    font-size: 20px;
+    border-width: 5px;
+    border-radius: 10px;
+    padding: 7px;
+    border-color: rgb(176, 255, 176);
+
+  }
+
+  .button {
+    font-size: 32px;
+    padding: 0.25em 0.5em;
+    margin: 0.12.5em;
+    border-radius: 1em;
+    border: none;
+    outline: none;
+    background:white;
+
+  }
+
+  .button:hover{
+    background-color: rgb(176, 255, 176);
+
+  }
+
+  a:link{
+    color: black;
+    font-size: 40px;
+  }
+  a:visited{
+    color: black;
+  }
+  a:hover{color:rgba(128, 128, 128, 0.413);}
+
+  hr{
+    width: 130%;
+    color: black;
+  }
+
+  

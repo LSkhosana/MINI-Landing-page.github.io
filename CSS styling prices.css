@@ -1,0 +1,129 @@
+body{
+  background:linear-gradient(rgb(176, 255, 176),rgba(4, 125, 253, 0.879));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+ }
+
+
+.image-container {
+    position: relative;
+    width: 300px; 
+  }
+
+  .image {
+    width: 100%; 
+    height: auto; 
+    border: 1px solid #ddd; 
+  }
+
+  .content {
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    color: white; 
+    padding: 10px; 
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+  }
+
+  .image-container:hover .content {
+    opacity: 1; 
+  }
+
+  
+
+  .image-container2 {
+    position: relative;
+    width: 300px; 
+  }
+
+  .image2 {
+    width: 100%; 
+    height: auto; 
+    border: 1px solid #ddd; 
+  }
+
+  .content2 {
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    color: white; 
+    padding: 10px; 
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+  }
+
+  .image-container2:hover .content2 {
+    opacity: 1; 
+  } 
+  
+  .image-container3 {
+    position: relative;
+    width: 300px;
+  }
+
+  .image3 {
+    width: 100%; 
+    height: auto; 
+    border: 1px solid #ddd; 
+  }
+
+  .content3 {
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    color: white; 
+    padding: 10px; 
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+  }
+
+  .image-container3:hover .content3 {
+    opacity: 1; 
+  }
+
+  h1 {
+    display: inline-block; 
+    margin-right: 20px;    
+  }
+
+  a:link{
+    color: black;
+    font-size: 40px;
+  }
+  a:visited{
+    color: black;
+  }
+  a:hover{color:rgba(128, 128, 128, 0.413);}
+
+  .content h1 {
+    font-size: 50px; 
+    margin-bottom: 50px; 
+  }
+
+  .content p {
+    font-size: 25px; 
+  }
+
+  .content2 h1 {
+    font-size: 50px; 
+    margin-bottom: 50px; 
+  }
+
+  .content2 p {
+    font-size: 25px; 
+  }
+
+  .content3 h1 {
+    font-size: 50px; 
+    margin-bottom: 50px; 
+  }
+
+  .content3 p {
+    font-size: 25px; 
+  }
+
+  hr{
+    width: 130%;
+
+  }
